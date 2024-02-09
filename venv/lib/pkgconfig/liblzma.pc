@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/mohammadtanzilalam/Documents/GitHub/ATS_Gen_AI/venv
+exec_prefix=/Users/mohammadtanzilalam/Documents/GitHub/ATS_Gen_AI/venv
+libdir=/Users/mohammadtanzilalam/Documents/GitHub/ATS_Gen_AI/venv/lib
+includedir=/Users/mohammadtanzilalam/Documents/GitHub/ATS_Gen_AI/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.6
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
